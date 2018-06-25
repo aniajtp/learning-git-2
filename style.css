@@ -25,7 +25,8 @@ header h2 {
 header h3 {
   padding: 0 40px;
   margin: 0 50px;
- 
+  color: rgb(27, 70, 42);
+  font-size: 25px;
 }
 .gallery {
   display: flex;
