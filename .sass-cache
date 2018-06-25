@@ -10,7 +10,7 @@ body{
   margin: auto;
 }
 header h1 {
-  font-size: 50px;
+  font-size: 100px;
   color: rgb(27, 70, 42);
   line-height: 0;
   padding: 40px 40px 15px 40px;
@@ -75,11 +75,4 @@ p1 {
 p2 {
   flex-grow: 3;
 }
-
-
-
-
-
-
-
 
