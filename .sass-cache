@@ -10,7 +10,7 @@ body{
   margin: auto;
 }
 header h1 {
-  font-size: 100px;
+  font-size: 50px;
   color: rgb(27, 70, 42);
   line-height: 0;
   padding: 40px 40px 15px 40px;
@@ -21,6 +21,12 @@ header h2 {
   color: rgb(255, 255, 255);
   padding: 0 40px;
   margin: 0 50px;
+}
+header h3 {
+  padding: 0 40px;
+  margin: 0 50px;
+  font-size: 20px;
+  color:rgb(27, 70, 42);
 }
 .gallery {
   display: flex;
@@ -75,4 +81,11 @@ p1 {
 p2 {
   flex-grow: 3;
 }
+
+
+
+
+
+
+
 
