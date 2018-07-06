@@ -9,20 +9,20 @@ body{
   padding: auto;
   margin: auto;
 }
-header h1 {
+.title h1 {
   font-size: 50px;
   color: rgb(27, 70, 42);
   line-height: 0;
   padding: 40px 40px 15px 40px;
   margin: 30px 50px 0 50px;
 }
-header h2 {
+.title h2 {
   font-size: 30px;
   color: rgb(255, 255, 255);
   padding: 0 40px;
   margin: 0 50px;
 }
-header h3 {
+.title h3 {
   padding: 0 40px;
   margin: 0 50px;
   font-size: 20px;
@@ -37,7 +37,7 @@ header h3 {
       justify-content: center;
   padding: 20px;
 }
-img {
+.gallery img {
   display: -ms-flexbox;
   display: flex;
   width: 400px;
@@ -51,7 +51,7 @@ img {
   margin: 20px;
   padding: 5px;
 }
-article {
+.text {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -60,7 +60,7 @@ article {
       justify-content: center;
   padding: 20px;
 }
-p {
+.text p {
   display: -ms-flexbox;
   display: flex;
   width: 820px;
@@ -88,11 +88,11 @@ footer {
   color: rgb(27, 70, 42);
   font-weight: bold;
 }
-p1 {
+.ania {
   -ms-flex-positive: 2;
       flex-grow: 2;
 }
-p2 {
+.repozytorium {
   -ms-flex-positive: 3;
       flex-grow: 3;
 }
