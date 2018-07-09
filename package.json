@@ -12,8 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "npm run test:html",
-    "test:html": "nu-html-checker *.html"
-  }
+    "test:html": "globstar nu-html-checker *.html"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -32,4 +32,4 @@
     "url": "https://github.com/aniajtp/learning-git-2/issues"
   },
   "homepage": "https://github.com/aniajtp/learning-git-2#readme"
-}
+
